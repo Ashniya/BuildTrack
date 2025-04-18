@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BuildTrack - Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body style="background-image: url('images2/main.jpg');" class="bg-cover bg-center min-h-screen relative">
+
+  <!-- Header -->
+  <header class="header">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-3xl font-bold text-white">BuildTrack</h1>
+      <nav class="space-x-6 text-white">
+        <a href="aboutus.html" class="hover:underline">About Us</a>
+        <a href="working.html" class="hover:underline">How It Works</a>
+        <a href="contact.html" class="hover:underline">Contact Us</a>
+        <a href="http://localhost/projectKT/logout.php" class="hover:underline text-red-400">Logout</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="pt-28 px-10 min-h-screen">
+    <h2 class="text-3xl font-bold mb-8 text-gray-800">Select a Construction Site</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
+      <!-- SITE_CARDS_START -->
+      <a href="http://localhost/projectKT/sites/site1.php" class="site-card">
+        <h3 class="text-2xl font-semibold mb-2">Eco Residency</h3>
+        <p class="text-base text-gray-600">Bangalore</p>
+      </a>
+
+      <a href="http://localhost/projectKT/sites/site2.php" class="site-card">
+        <h3 class="text-2xl font-semibold mb-2">Sunview Apartments</h3>
+        <p class="text-base text-gray-600">Mumbai</p>
+      </a>
+
+      <a href="http://localhost/projectKT/sites/site3.php" class="site-card">
+        <h3 class="text-2xl font-semibold mb-2">Elite Heights</h3>
+        <p class="text-base text-gray-600">Delhi</p>
+      </a>
+
+      <a href="http://localhost/projectKT/sites/site4.php" class="site-card">
+        <h3 class="text-2xl font-semibold mb-2">Green Valley</h3>
+        <p class="text-base text-gray-600">Pune</p>
+      </a>
+
+      <a href="http://localhost/projectKT/sites/site5.php" class="site-card">
+        <h3 class="text-2xl font-semibold mb-2">Riverfront Villas</h3>
+        <p class="text-base text-gray-600">Chennai</p>
+      </a>
+      <!-- SITE_CARDS_END -->
+    </div>
+
+    <!-- Add Site Form (ALWAYS LAST) -->
+    <div class="mt-16 max-w-lg mx-auto bg-white p-6 rounded shadow">
+      <h3 class="text-xl font-bold text-gray-800 mb-4">Add New Construction Site</h3>
+      <form action="create_site.php" method="POST">
+        <input type="text" name="site_name" placeholder="Enter Site Name" required
+               class="p-2 border rounded w-full mb-4" />
+        <button type="submit"
+                class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded w-full">
+          Create Site
+        </button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

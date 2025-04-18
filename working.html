@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuildTrack - How It Works</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .intro {
+            padding: 40px;
+        }
+        .features {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 40px;
+        }
+        .feature {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+            text-align: center;
+        }
+        .feature img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer-content {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px 0;
+        }
+       
+
+    </style>
+</head>
+<body onload="document.body.style.opacity='1'">
+    <header class="header">
+        <h1 class="logo">BUILDTRACK</h1>
+        <nav>
+            <a href="#">How it works</a>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h2>See How BuildTrack Streamlines Your Construction Projects</h2>
+        <p>BuildTrack offers a comprehensive solution for monitoring construction site progress. Our platform provides daily updates, real-time data, and automated report generation, ensuring all stakeholders are informed.</p>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <img src="images/working1.jpg" alt="Daily Progress Tracking">
+            <h3>Daily Progress Tracking</h3>
+            <p>Track daily progress with ease using our intuitive platform.</p>
+        </div>
+        <div class="feature">
+            <img src="images/working2.jpg" alt="Real-Time Data Updates">
+            <h3>Real-Time Data Updates</h3>
+            <p>Access real-time data updates on your construction projects.</p>
+        </div>
+        <div class="feature">
+            <img src="images/working3.jpg" alt="Automated Report Generation">
+            <h3>Automated Report Generation</h3>
+            <p>Generate comprehensive reports automatically with BuildTrack.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h2>BUILDTRACK</h2>
+                <p>Tracking Construction Progress with Ease</p>
+            </div>
+            <div>
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="aboutus.html" class="hover:underline">About Us</a></li>
+                    <li><a href="working.html" class="hover:underline">How It Works</a></li>
+                    <li><a href="contact.html" class="hover:underline">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="privacy-policy.html" class="hover:underline">Privacy Policy</a></li>
+                    <li><a href="terms-of-service.html" class="hover:underline">Terms of Service</a></li>
+                    <li><a href="faq.html" class="hover:underline">FAQs</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contact Us</h3>
+                <p>Email: support@buildtrack.com</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Address: 123, Construction Lane, City</p>
+            </div>
+        </div>
+        <div>&copy; 2025 BUILDTRACK. All rights reserved.</div>
+    </footer>
+</body>
+</html>

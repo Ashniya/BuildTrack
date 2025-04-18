@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - BuildTrack</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+
+<header class="bg-gray-800 text-white px-6 py-5 shadow-lg sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto flex justify-between items-center">
+    <h1 class="text-3xl font-bold">BuildTrack</h1>
+    <nav class="space-x-6 text-sm">
+      <a href="index.html" class="hover:underline">Home</a>
+      <!-- <a href="home.html" class="hover:underline">home</a> -->
+      <a href="contact.html" class="underline text-blue-300">Contact</a>
+    </nav>
+  </div>
+</header>
+
+
+<section class="bg-gray-900 text-white py-16 px-6 text-center">
+  <h1 class="text-4xl font-bold mb-4 animate__animated animate__fadeInDown">Get in touch</h1>
+  <p class="text-lg text-gray-300 animate__animated animate__fadeInUp">We'd love to hear from you. Connect with the developer or drop feedback below.</p>
+</section>
+
+
+<section class="max-w-6xl mx-auto py-16 grid md:grid-cols-2 gap-8 px-6">
+
+  <div class="bg-white shadow-lg rounded-xl p-8 border text-center animate__animated animate__fadeInLeft">
+    <div class="text-4xl text-purple-600 mb-4">👨‍💻</div>
+    <h2 class="text-xl font-semibold mb-2">Developer Contact</h2>
+    <p class="text-gray-600 mb-4">Want to collaborate or give feedback? Reach out directly!</p>
+    <div class="space-y-2 text-left text-sm font-medium text-gray-700">
+      <p>📧 Email: <a href="mailto:ashniyaalosious7@gmail.com" class="text-blue-600 hover:underline">ashniyaalosious7@gmail.com</a> <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="mailto:ramprakashyadav2151@gmail.com" class="text-blue-600 hover:underline">ramprakashyadav2151@gmail.com</a></p>
+      <p>📱 Phone: <a href="tel:+917034136911" class="text-blue-600 hover:underline">+91 70341 36911</a>, 
+         <a href="tel:+919918037602" class="text-blue-600 hover:underline">+91 9918037602</a></p>
+      <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/ashniya-alosious/" class="text-blue-600 hover:underline" target="_blank">linkedin.com/in/ashniya-alosious/</a>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/ramprakashyadav2151/" class="text-blue-600 hover:underline" target="_blank">linkedin.com/in/ramprakashyadav2151</a>
+      </p>
+                  
+      <p>📸 Instagram: <a href="https://instagram.com/ashniyaalosious" class="text-blue-600 hover:underline" target="_blank">ashniyaalosious</a>, 
+        <a href="https://www.instagram.com/prakash_yadav_2027/" class="text-blue-600 hover:underline" target="_blank">prakash_yadav_2027</a>
+        
+      </p>
+    </div>
+  </div>
+
+  <div class="bg-white shadow-lg rounded-xl p-8 border text-center animate__animated animate__fadeInRight">
+    <div class="text-4xl text-indigo-600 mb-4">🧑‍💻</div>
+    <h2 class="text-xl font-semibold mb-4">About the Developers</h2>
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-8">
+      
+      <!-- Developer 1 -->
+      <div class="text-center">
+        <img src="images2/ashniya.jpg" alt="Developer 1" class="w-24 h-24 rounded-full mx-auto mb-2 border-2 border-indigo-500">
+        <h3 class="font-semibold text-lg">Ashniya Alosious</h3>
+        <p class="text-sm text-gray-600">Developer 1</p>
+      </div>
+
+      <!-- Developer 2 -->
+      <div class="text-center">
+        <img src="images2/prakash.jpg" alt="Developer 2" class="w-24 h-24 rounded-full mx-auto mb-2 border-2 border-indigo-500">
+        <h3 class="font-semibold text-lg">Ram Prakash Yadav</h3>
+        <p class="text-sm text-gray-600">Developer 2</p>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+
+
+<section class="bg-gray-100 py-16 px-6">
+  <div class="max-w-4xl mx-auto bg-white p-10 rounded-xl shadow-lg animate__animated animate__fadeInUp">
+    <h2 class="text-2xl font-bold mb-6 text-center">📢 Send Us Your Feedback</h2>
+   
+    <form method="POST" action="http://localhost/projectKT/feedback.php">
+
+      <div class="grid md:grid-cols-2 gap-6 mb-4">
+        <input type="text" name="name" placeholder="Your Name" class="p-3 border rounded w-full" required>
+        <input type="email" name="email" placeholder="Your Email" class="p-3 border rounded w-full" required>
+      </div>
+      <textarea name="message" rows="5" placeholder="Your Message..." class="w-full p-3 border rounded mb-4" required></textarea>
+      <div class="text-center">
+        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded shadow-lg transition">Submit Feedback</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+<footer class="bg-gray-900 text-white text-center py-6">
+  &copy; 2025 BuildTrack. Crafted with ❤️ by the Dev Team.
+</footer>
+
+</body>
+</html> 

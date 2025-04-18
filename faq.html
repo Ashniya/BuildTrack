@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BuildTrack - FAQs</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.faq-toggle').forEach(button => {
+        button.addEventListener('click', () => {
+          const answer = button.nextElementSibling;
+          const icon = button.querySelector('svg');
+          answer.classList.toggle('hidden');
+          icon.classList.toggle('rotate-180');
+        });
+      });
+    });
+  </script>
+</head>
+<body class="bg-gradient-to-b from-gray-100 to-gray-200 min-h-screen py-10">
+  <div class="max-w-4xl mx-auto p-6 bg-white rounded-2xl shadow-xl">
+    <h1 class="text-4xl font-extrabold text-gray-800 mb-8 text-center">Frequently Asked Questions</h1>
+    <div class="space-y-4">
+
+      <!-- FAQ 1 -->
+      <div class="border rounded-lg overflow-hidden shadow-sm bg-gray-50">
+        <button class="w-full text-left px-6 py-4 bg-white hover:bg-gray-100 focus:outline-none faq-toggle flex items-center justify-between">
+          <span class="text-lg font-semibold text-blue-700">1. What is BuildTrack?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="px-6 py-4 text-gray-700 hidden">BuildTrack is a construction progress tracking platform designed to improve transparency and efficiency by providing real-time updates and insights for construction projects.</div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="border rounded-lg overflow-hidden shadow-sm bg-gray-50">
+        <button class="w-full text-left px-6 py-4 bg-white hover:bg-gray-100 focus:outline-none faq-toggle flex items-center justify-between">
+          <span class="text-lg font-semibold text-blue-700">2. Is my data safe with BuildTrack?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="px-6 py-4 text-gray-700 hidden">Yes. We implement industry-standard security practices to ensure your data is safe from unauthorized access.</div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="border rounded-lg overflow-hidden shadow-sm bg-gray-50">
+        <button class="w-full text-left px-6 py-4 bg-white hover:bg-gray-100 focus:outline-none faq-toggle flex items-center justify-between">
+          <span class="text-lg font-semibold text-blue-700">3. Can I request my data to be deleted?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="px-6 py-4 text-gray-700 hidden">Absolutely. You can contact us anytime to request the deletion of your personal information.</div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="border rounded-lg overflow-hidden shadow-sm bg-gray-50">
+        <button class="w-full text-left px-6 py-4 bg-white hover:bg-gray-100 focus:outline-none faq-toggle flex items-center justify-between">
+          <span class="text-lg font-semibold text-blue-700">4. How are construction updates shared?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="px-6 py-4 text-gray-700 hidden">Construction updates, including images and notes, are shared within the platform for authorized stakeholders to access. They are not made public.</div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="border rounded-lg overflow-hidden shadow-sm bg-gray-50">
+        <button class="w-full text-left px-6 py-4 bg-white hover:bg-gray-100 focus:outline-none faq-toggle flex items-center justify-between">
+          <span class="text-lg font-semibold text-blue-700">5. Do you sell or share user data?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="px-6 py-4 text-gray-700 hidden">No. We do not sell your data to third parties. It is only shared when required by law or for essential service delivery.</div>
+      </div>
+
+      <!-- FAQ 6 -->
+      <div class="border rounded-lg overflow-hidden shadow-sm bg-gray-50">
+        <button class="w-full text-left px-6 py-4 bg-white hover:bg-gray-100 focus:outline-none faq-toggle flex items-center justify-between">
+          <span class="text-lg font-semibold text-blue-700">6. How often are policies updated?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="px-6 py-4 text-gray-700 hidden">Policies are reviewed regularly and updated as needed. Users are notified in case of significant changes.</div>
+      </div>
+
+      <!-- FAQ 7 -->
+      <div class="border rounded-lg overflow-hidden shadow-sm bg-gray-50">
+        <button class="w-full text-left px-6 py-4 bg-white hover:bg-gray-100 focus:outline-none faq-toggle flex items-center justify-between">
+          <span class="text-lg font-semibold text-blue-700">7. Who can use BuildTrack?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="px-6 py-4 text-gray-700 hidden">BuildTrack is ideal for construction managers, contractors, and clients who want real-time visibility into project progress.</div>
+      </div>
+
+      <!-- FAQ 8 -->
+      <div class="border rounded-lg overflow-hidden shadow-sm bg-gray-50">
+        <button class="w-full text-left px-6 py-4 bg-white hover:bg-gray-100 focus:outline-none faq-toggle flex items-center justify-between">
+          <span class="text-lg font-semibold text-blue-700">8. Is there a mobile app?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="px-6 py-4 text-gray-700 hidden">Yes, BuildTrack is accessible via mobile browsers and a dedicated app is under development.</div>
+      </div>
+
+      <!-- FAQ 9 -->
+      <div class="border rounded-lg overflow-hidden shadow-sm bg-gray-50">
+        <button class="w-full text-left px-6 py-4 bg-white hover:bg-gray-100 focus:outline-none faq-toggle flex items-center justify-between">
+          <span class="text-lg font-semibold text-blue-700">9. Can I customize reports?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="px-6 py-4 text-gray-700 hidden">Yes, BuildTrack provides customizable reporting tools to suit your project needs.</div>
+      </div>
+
+      <!-- FAQ 10 -->
+      <div class="border rounded-lg overflow-hidden shadow-sm bg-gray-50">
+        <button class="w-full text-left px-6 py-4 bg-white hover:bg-gray-100 focus:outline-none faq-toggle flex items-center justify-between">
+          <span class="text-lg font-semibold text-blue-700">10. Is training provided?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="px-6 py-4 text-gray-700 hidden">Yes, we offer onboarding assistance and tutorials for new users.</div>
+      </div>
+
+      <!-- FAQ 11 -->
+      <div class="border rounded-lg overflow-hidden shadow-sm bg-gray-50">
+        <button class="w-full text-left px-6 py-4 bg-white hover:bg-gray-100 focus:outline-none faq-toggle flex items-center justify-between">
+          <span class="text-lg font-semibold text-blue-700">11. What type of data does BuildTrack collect?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="px-6 py-4 text-gray-700 hidden">We collect personal information, project data, and usage analytics to improve services.</div>
+      </div>
+
+      <!-- FAQ 12 -->
+      <div class="border rounded-lg overflow-hidden shadow-sm bg-gray-50">
+        <button class="w-full text-left px-6 py-4 bg-white hover:bg-gray-100 focus:outline-none faq-toggle flex items-center justify-between">
+          <span class="text-lg font-semibold text-blue-700">12. Can multiple users access a project?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="px-6 py-4 text-gray-700 hidden">Yes, multiple stakeholders can be granted access to view and update project data.</div>
+      </div>
+
+      <!-- FAQ 13 -->
+      <div class="border rounded-lg overflow-hidden shadow-sm bg-gray-50">
+        <button class="w-full text-left px-6 py-4 bg-white hover:bg-gray-100 focus:outline-none faq-toggle flex items-center justify-between">
+          <span class="text-lg font-semibold text-blue-700">13. How do I update my profile?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="px-6 py-4 text-gray-700 hidden">You can update your profile through the account settings section after logging in.</div>
+      </div>
+
+      <!-- FAQ 14 -->
+      <div class="border rounded-lg overflow-hidden shadow-sm bg-gray-50">
+        <button class="w-full text-left px-6 py-4 bg-white hover:bg-gray-100 focus:outline-none faq-toggle flex items-center justify-between">
+          <span class="text-lg font-semibold text-blue-700">14. What if I forget my password?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="px-6 py-4 text-gray-700 hidden">You can reset your password using the "Forgot Password" link on the login page.</div>
+      </div>
+
+      <!-- FAQ 15 -->
+      <div class="border rounded-lg overflow-hidden shadow-sm bg-gray-50">
+        <button class="w-full text-left px-6 py-4 bg-white hover:bg-gray-100 focus:outline-none faq-toggle flex items-center justify-between">
+          <span class="text-lg font-semibold text-blue-700">15. How do I contact customer support?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="px-6 py-4 text-gray-700 hidden">You can reach us at support@buildtrack.com or by phone at +123 456 7890.</div>
+      </div>
+
+      <!-- FAQ 16 -->
+      <div class="border rounded-lg overflow-hidden shadow-sm bg-gray-50">
+        <button class="w-full text-left px-6 py-4 bg-white hover:bg-gray-100 focus:outline-none faq-toggle flex items-center justify-between">
+          <span class="text-lg font-semibold text-blue-700">16. Are there different user roles?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="px-6 py-4 text-gray-700 hidden">Yes, BuildTrack supports roles like admin, manager, and viewer with different access levels.</div>
+      </div>
+
+      <!-- FAQ 17 -->
+      <div class="border rounded-lg overflow-hidden shadow-sm bg-gray-50">
+        <button class="w-full text-left px-6 py-4 bg-white hover:bg-gray-100 focus:outline-none faq-toggle flex items-center justify-between">
+          <span class="text-lg font-semibold text-blue-700">17. Can I export project data?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="px-6 py-4 text-gray-700 hidden">Yes, users can export project data in PDF and Excel formats for sharing and analysis.</div>
+      </div>
+
+      <!-- FAQ 18 -->
+      <div class="border rounded-lg overflow-hidden shadow-sm bg-gray-50">
+        <button class="w-full text-left px-6 py-4 bg-white hover:bg-gray-100 focus:outline-none faq-toggle flex items-center justify-between">
+          <span class="text-lg font-semibold text-blue-700">18. Is BuildTrack cloud-based?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="px-6 py-4 text-gray-700 hidden">Yes, BuildTrack is entirely cloud-based for convenient access and storage.</div>
+      </div>
+
+      <!-- FAQ 19 -->
+      <div class="border rounded-lg overflow-hidden shadow-sm bg-gray-50">
+        <button class="w-full text-left px-6 py-4 bg-white hover:bg-gray-100 focus:outline-none faq-toggle flex items-center justify-between">
+          <span class="text-lg font-semibold text-blue-700">19. What browsers are supported?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="px-6 py-4 text-gray-700 hidden">BuildTrack works on all modern browsers like Chrome, Firefox, Safari, and Edge.</div>
+      </div>
+
+      <!-- FAQ 20 -->
+      <div class="border rounded-lg overflow-hidden shadow-sm bg-gray-50">
+        <button class="w-full text-left px-6 py-4 bg-white hover:bg-gray-100 focus:outline-none faq-toggle flex items-center justify-between">
+          <span class="text-lg font-semibold text-blue-700">20. How do I provide feedback?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="px-6 py-4 text-gray-700 hidden">You can provide feedback through the platform or by emailing support@buildtrack.com.</div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
